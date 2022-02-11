@@ -134,7 +134,7 @@ Field::AngleSize FastMath::degreesToRadians(const uint16_t theta)
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Hot path: yes
-// Equation 1...
+// Equation 2...
 //
 Field::AngleType FastMath::minimumAngle(const Field::AngleType a, const Field::AngleType b)
 {
@@ -151,7 +151,7 @@ Field::AngleType FastMath::minimumAngle(const Field::AngleType a, const Field::A
 
 //-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 // Hot path: yes
-// Equation 2...
+// Equation 3...
 //
 Field::AngleType FastMath::rotateAngle(const Field::AngleType a, const Field::AngleType b)
 {
